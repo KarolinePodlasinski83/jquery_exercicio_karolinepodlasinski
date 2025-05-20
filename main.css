@@ -1,0 +1,118 @@
+    /* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: #e3eb68;
+    padding: 20px;
+    color: #333;
+}
+
+header {
+    background-color: #003366;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header .container {
+    justify-content: space-around;
+}
+
+#carousel-imagens {
+    width: 100%;
+    max-width: 900px;
+    margin: 25px auto;
+}
+
+/* Corrige imagens dentro do carrossel */
+#carousel-imagens img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.container {
+    background-color: rgb(245, 240, 240);
+    padding: 20px;
+    border-radius: 8px;
+    width: 50%;
+    margin: 0 auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Estilo geral dos campos */
+.form-campo {
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centraliza os campos e o botão horizontalmente */
+}
+
+/* Estilo dos rótulos */
+label {
+    margin-bottom: 6px;
+    font-weight: 600;
+    color: #333;
+    font-size: 14px;
+}
+
+/* Estilo dos inputs */
+input {
+    width: 100%;
+    max-width: 360px;
+    padding: 14px;
+    font-size: 15px;
+    border: 1.5px solid #ccc;
+    border-radius: 8px;
+    transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+/* Campo com erro (validação) */
+    input.error {
+    border-color: red;
+    background-color: #ffe6e6;
+}
+
+/* Estilo das mensagens de erro */
+label.error {
+    color: red;
+    font-size: 13px;
+    margin-top: 4px;
+    font-weight: normal;
+}
+
+button[type="submit"] {
+    display: block;
+    margin: 0 auto;
+    max-width: 290px;
+}
+
+
+/* Botão moderno */
+button[type="submit"] {
+    background-color: #003366;
+    color: white;
+    padding: 14px;
+    border: none;
+    border-radius: 8px;
+    width: 100%; /* O botão ocupa toda a largura disponível */
+    max-width: 290px; /* Largura máxima do botão */
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    align-self: center; /* Alinha o botão no centro do contêiner */
+}
+
+button[type="submit"]:hover {
+    background-color: #0055aa;
+}
