@@ -1,4 +1,4 @@
-$(document).ready(function () {
+     $(document).ready(function () {
     // Inicializar o carrossel com autoplay
     $('#carousel-imagens').slick({
         autoplay: true,
@@ -16,7 +16,7 @@ $(document).ready(function () {
     $('#form').validate({
         rules: {
             nome: {
-                required: true
+                required: true     
             },
             email: {
                 required: true,
